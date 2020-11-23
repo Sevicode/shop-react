@@ -7,14 +7,14 @@ import HomeScreen from './screens/HomeScreen'
 const App = () => {
   return (
     <>
-      <header />
+      <Header />
       <main className='py-3'>
         <Container>
         <HomeScreen />
       </Container>
 
       </main>
-      <footer />
+      <Footer />
     
     </>
   );
